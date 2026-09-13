@@ -16,7 +16,7 @@ const botaoCompra = document.getElementById("botaoCompra");
 botaoCompra.addEventListener("click", (event) => {
   const href = botaoCompra.getAttribute("href");
 
-  if (href === "SEU-LINK-DE-CHECKOUT-AQUI") {
+  if (href === "https://pay.kiwify.com.br/9eVHyJD") {
     event.preventDefault();
     alert("Adicione seu link de checkout no arquivo index.html antes de publicar o site.");
   }
